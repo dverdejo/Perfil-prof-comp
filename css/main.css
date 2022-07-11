@@ -213,7 +213,7 @@ header {
 .form-group .btn {
     letter-spacing: 0.5px;
     cursor: pointer;
-    margin-left: 40%;
+    width: 100%;
 }
 
 .redes-sociales .bi {
@@ -234,4 +234,33 @@ header {
 footer{
     background: linear-gradient(90deg, rgb(171, 223, 249) 0%, rgb(41, 148, 193) 100%);
     height: 72px;
+}
+
+/* ----- MEDIA QUERIES ----- */
+@media screen and (max-width: 900px) {
+
+    /*Contacto*/
+    .contenedor-formulario .formulario {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor-formulario .foto {
+        display: none;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+
+    /*Contacto*/
+    .main .contacto .contenedor-formulario .formulario {
+        padding: 70px 40px;
+    }
 }

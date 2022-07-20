@@ -1,5 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
+    max-width: inherit;
 }
 
 nav, header, .proyectos, .contacto, footer{
